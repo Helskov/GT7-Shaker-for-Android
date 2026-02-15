@@ -15,6 +15,13 @@ GT7 Shaker is a lightweight, zero-latency telemetry dashboard designed for Sim R
 * **⏱️ Advanced Lap Timing:** Integrated lap counter and pace indicators.
 * **🔧 Deep Customization:** Fine-tune collision sensitivity and shaker intensity.
 * **⚡ Zero Lag:** Uses native UDP packets for instant feedback.
+  
+## 🔊 High-Performance Audio Engine
+GT7 Shaker isn't just a visual tool. It features a custom-built, low-latency audio engine designed for haptic feedback and real-time sound generation:
+
+* **Native C++ Integration:** Uses a compiled `libnative_audio.so` library to bypass standard Android audio latency, ensuring your shakers react instantly to in-game events.
+* **Advanced Java Bridge:** Leverages a dedicated Java-based `AudioGenerator` for seamless communication between the telemetry data and the hardware.
+* **Dedicated Background Service:** Powered by a separate Android service, the audio engine continues to run flawlessly even if you switch apps or turn off the screen during long endurance races.
 
 ---
 
@@ -39,22 +46,27 @@ GT7 Shaker is a lightweight, zero-latency telemetry dashboard designed for Sim R
 
 ## 📥 Installation (Android)
 
-Since this app is built by a solo developer and not hosted on the Google Play Store, your phone will treat it as an "Unknown Source." This is normal.
+Since this app is built by a solo developer and not hosted on the Google Play Store, Android requires a few extra steps to ensure a successful installation.
 
 1.  **Download:** Go to the **[Releases](../../releases)** page and download the latest `.apk` file (e.g., `app-1.4-arm64-v8a-release.apk`).
-2.  **Install:** Open the file on your phone.
-3.  **Security Warning:** You will likely see a popup saying **"Blocked by Play Protect"**.
-* Click **"More Details"** (or the arrow down).
-* Select **"Install Anyway"**.
+2.  **Open File:** Once downloaded, open the file from your browser or file manager.
+3.  **System Permission:** If prompted that your phone "is not allowed to install unknown apps from this source":
+    * Click **Settings** in the popup.
+    * Toggle **"Allow from this source"** to ON.
+    * Press back and click **Install**.
+4.  **Play Protect Warning:** You will likely see a second popup saying **"Blocked by Play Protect"**:
+    * Click **"More Details"** (the small arrow down).
+    * Select **"Install Anyway"**.
+5.  **Launch:** Find **GT7 Shaker** in your app drawer and you're ready to race!
 
 ---
 
 ## ⚙️ Setup Guide
 
-### 1. Configure Gran Turismo 7 (PS4/PS5)
-1.  Go to **GT Menu** -> **Options** -> **Network**.
-2.  Enable **Telemetry Settings** (Broadcast Mode).
-3.  Set the destination IP to your phone's IP address.
+1.  **Find your PlayStation IP:** On your PS4/PS5, go to **Settings** -> **Network** -> **View Connection Status** and note down the IP address (e.g., `192.168.1.50`).
+2.  **Connect the App:** Open **GT7 Shaker** on your phone.
+3.  **Enter IP:** Type your PlayStation's IP address into the app's connection screen.
+4.  **Race:** The dashboard and shaker engine will activate automatically as soon as you enter a track.
 
 ### 2. Connect the App
 1.  Ensure your Phone and PlayStation are on the **same Wi-Fi network**.
