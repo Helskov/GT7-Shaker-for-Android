@@ -1,14 +1,15 @@
 # 🏎️ GT7 Shaker - Haptic Feedback & Telemetry Engine
 
-**The most advanced low-latency shaker solution for Gran Turismo 7 on Android.**
+**The most advanced low-latency shaker solution for Gran Turismo 7 on Android. And probaly the only**
 
 ![Splash Screen](loadingscreen.png)
 
 ## 📋 Overview
 **GT7 Shaker is foremost a high-performance haptic feedback (shaker) application**, designed to bring professional-grade immersion to your sim-rig. 
 
-While it includes a secondary, full-featured race dashboard, its core purpose is to translate complex vehicle physics into physical feedback. By using real-time telemetry data, the app generates immersive tactile sensations through your device's audio output or vibration motors, allowing you to "feel" the car and the track.
+While it includes a secondary, full-featured race dashboard, its core purpose is to translate complex vehicle physics into physical feedback. By using real-time telemetry data, the app generates immersive tactile sensations through your device's audio output, allowing you to "feel" the car and the track.
 
+> ⚠️ **Hardware Requirement:** To use the haptic feedback features, you need a dedicated tactile setup. This app generates audio-based signals that require an external amplifier (e.g., **Nobsound NS-10G**) and haptic feedback transducers/bass shakers (e.g., **Dayton Audio BST-1**) mounted to your racing seat or rig.
 ---
 
 ## ✨ Key Features: The Shaker Engine (Primary)
