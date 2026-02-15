@@ -1,20 +1,33 @@
-# 🏎️ GT7 Shaker - Realtime Telemetry Dashboard
+# 🏎️ GT7 Shaker - Haptic Feedback & Telemetry Engine
 
-**Transform your Android device into a professional racing dashboard for Gran Turismo 7.**
+**The most advanced low-latency shaker solution for Gran Turismo 7 on Android.**
 
 ![Splash Screen](loadingscreen.png)
 
 ## 📋 Overview
-GT7 Shaker is a lightweight, zero-latency telemetry dashboard designed for Sim Racers. It connects directly to your PlayStation 4 or 5 via UDP to display critical race data that isn't always visible on the main screen.
+**GT7 Shaker is foremost a high-performance haptic feedback (shaker) application**, designed to bring professional-grade immersion to your sim-rig. 
 
-**🚀 Evolution:** This Android application is a direct evolution and mobile port of my open-source project, **[GT7 Shaker for Linux](https://github.com/Helskov/GT7-Shaker-for-linux)**. It brings the same precision and speed to your phone or tablet.
+While it includes a secondary, full-featured race dashboard, its core purpose is to translate complex vehicle physics into physical feedback. By using real-time telemetry data, the app generates immersive tactile sensations through your device's audio output or vibration motors, allowing you to "feel" the car and the track.
 
-## ✨ Key Features
+---
 
-* **🛞 Live Tire Temperatures:** Visual heat-map for all 4 tires (Cold/Optimal/Hot) to help you manage grip.
-* **⏱️ Advanced Lap Timing:** Integrated lap counter and pace indicators.
-* **🔧 Deep Customization:** Fine-tune collision sensitivity and shaker intensity.
-* **⚡ Zero Lag:** Uses native UDP packets for instant feedback.
+## ✨ Key Features: The Shaker Engine (Primary)
+The heart of this app is a custom-built C++ audio engine that transforms raw telemetry into immersive physics-based feedback with zero perceptible lag.
+
+* **⚡ Suspension & Road Effects:** Feel the texture of the track, every curb strike, and the weight transfer of the car through advanced suspension telemetry.
+* **🛞 Traction & Grip Feedback:** Detect tire slip, understeer, and brake lock-ups before they happen, allowing you to react faster and save your tires.
+* **🔥 Dynamic Engine Effects:** Immersive engine vibrations that scale with RPM and torque, giving you a better "feel" for your shift points.
+* **💥 Collision Impact System:** Directional and intensity-based feedback for impacts with other cars or barriers.
+* **🔧 Professional Tuning:** Deep customization with individual sliders to fine-tune intensity and sensitivity for each specific effect, ensuring it matches your specific shaker hardware perfectly.
+
+---
+
+## 📊 Integrated Race Dashboard (Secondary)
+When you aren't focusing on the physical feedback, the app provides a crystal-clear visual interface for critical race data:
+
+* **🛞 Live Tire Temperatures:** Visual heat-map for all 4 tires (Cold/Optimal/Hot) to help you manage grip and strategy.
+* **⏱️ Advanced Lap Timing:** Integrated lap counter with dynamic pace indicators (Green/Red trend arrows).
+* **🏎️ Telemetry Overlays:** Detailed real-time data for RPM, Gear, and Speed.
   
 ## 🔊 High-Performance Audio Engine
 GT7 Shaker isn't just a visual tool. It features a custom-built, low-latency audio engine designed for haptic feedback and real-time sound generation:
