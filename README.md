@@ -93,3 +93,20 @@ Since this app is built by a solo developer and not hosted on the Google Play St
 * This project is based on the original work found at [GT7-Shaker-for-linux](https://github.com/Helskov/GT7-Shaker-for-linux).
 * This project is not affiliated with Polyphony Digital or Sony Interactive Entertainment.
 * Created by Helskov.
+
+## 🔒 Privacy & Permissions
+
+This application is built with a "Privacy by Design" approach. It is a local tool for your sim-rig and does not interact with the cloud.
+
+### Privacy Policy
+* **No Data Collection:** This app does not collect, store, or share any personal information, telemetry data, or usage statistics.
+* **No Tracking:** There are no analytics, no advertisements, and no third-party trackers included in the code.
+* **Offline / Local Only:** All communication happens exclusively between your Android device and your PlayStation on your local home network. No data ever leaves your house.
+
+### Permissions Explained
+To provide a zero-latency experience and keep the shaker engine running during long sessions, the following permissions are required:
+
+* **Internet & Network State:** Necessary to receive the high-speed UDP telemetry packets from your PlayStation.
+* **WiFi State:** Used to verify that your device is connected to the same network as your console.
+* **Foreground Service & Wake Lock:** Ensures that the C++ audio engine and telemetry stream are not interrupted by Android's power-saving features during a race.
+* **Modify Audio Settings:** Required to route the haptic feedback signals correctly to your connected amplifier or headphones.
