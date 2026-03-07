@@ -62,6 +62,7 @@ GT7 Shaker isn't just a visual tool. It features a custom-built, low-latency aud
 **GT7 Shaker for Android** is the direct evolution and mobile port of the original **[GT7 Shaker for Linux](https://github.com/Helskov/GT7-Shaker-for-linux)** project. 
 
 What started as a specialized Raspberry Pi solution for dedicated sim-rigs has now been completely re-engineered for Android. This move allows you to use the same high-performance telemetry and shaker engine directly on your smartphone or tablet, providing an all-in-one solution for both haptic feedback and a visual race dashboard.
+The linux project will however still have my main focus, as the possibilies are lot bigger on the linux platform than on mobile, when it comes to multi soundcards and GPIO interfaces. 
 
 ---
 
